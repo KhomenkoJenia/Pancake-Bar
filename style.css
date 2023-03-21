@@ -29,21 +29,21 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 @font-face {
   font-family: "PlayfairDisplay";
-  src: url("./assets/fonts/PlayfairDisplay-Medium.ttf") format("truetype");
+  src: url("assets/fonts/PlayfairDisplay-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ProzaLibre";
-  src: url("./assets/fonts/ProzaLibre-Regular.ttf") format("truetype");
+  src: url("assets/fonts/ProzaLibre-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ProzaLibre";
-  src: url("./assets/fonts/ProzaLibre-SemiBold.ttf") format("truetype");
+  src: url("assets/fonts/ProzaLibre-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -189,7 +189,7 @@ header .navbar-toggler[aria-expanded=true] span:after {
 
 .first-screen .container-fluid {
   padding: 115px 0 41px 0;
-  background-image: url(../assets/img/first-screen.svg);
+  background-image: url(assets/img/first-screen.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -216,7 +216,7 @@ header .navbar-toggler[aria-expanded=true] span:after {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../assets/img/bg.svg);
+  background-image: url(assets/img/bg.svg);
   background-position-y: 100%;
   margin: 0 auto;
   padding-bottom: 79px;
@@ -230,7 +230,7 @@ header .navbar-toggler[aria-expanded=true] span:after {
 }
 .about .container-fluid {
   min-height: 800px;
-  background-image: url(../assets/img/bg.svg);
+  background-image: url(assets/img/bg.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -410,7 +410,7 @@ header .navbar-toggler[aria-expanded=true] span:after {
 
 .advantages {
   background-repeat: no-repeat;
-  background-image: url(../assets/img/bg.svg);
+  background-image: url(assets/img/bg.svg);
   background-position-y: 70%;
   max-width: 1440px;
   margin: 0 auto;
@@ -424,7 +424,7 @@ header .navbar-toggler[aria-expanded=true] span:after {
   color: white;
 }
 .advantages .advantages-content {
-  background: url(../assets/img/cakeadvantage.svg);
+  background: url(assets/img/cakeadvantage.svg);
   background-position: center center;
   background-position-x: 100%;
   background-size: 100%;

@@ -92,3 +92,15 @@ $(".slider-template-second").slick({
 
 const form = document.getElementById("myForm");
 form.action = "javascript:void(0)";
+
+$(".timepicker").timepicker({
+	timeFormat: "h:mm",
+	interval: 30,
+	minTime: "10",
+	maxTime: "6:00pm",
+	defaultTime: "11",
+	startTime: "10:00",
+	dynamic: false,
+	dropdown: true,
+	scrollbar: true,
+});

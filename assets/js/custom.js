@@ -1,4 +1,5 @@
 new AirDatepicker("#airdatepicker", {
+	autoClose: true,
 	locale: {
 		days: [
 			"Sunday",
@@ -41,7 +42,7 @@ new AirDatepicker("#airdatepicker", {
 		],
 		today: "Today",
 		clear: "Clear",
-		dateFormat: "MM/dd/yyyy",
+		dateFormat: "dd/MM/yyyy",
 		timeFormat: "hh:mm aa",
 		firstDay: 0,
 	},
@@ -82,7 +83,7 @@ $(".slider-template").slick({
 });
 $(".slider-template-second").slick({
 	infinite: true,
-	slidesToShow: 2,
+	slidesToShow: 3,
 	slidesToScroll: 1,
 	asNavFor: ".slider-template",
 	dots: false,

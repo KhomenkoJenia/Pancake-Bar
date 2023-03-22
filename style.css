@@ -341,7 +341,6 @@ header .navbar-toggler[aria-expanded=true] span:after {
 .slider .slick-arrow.slick-next:hover {
   background-image: url("data:image/svg+xml,%3Csvg width='72' height='68' viewBox='0 0 72 68' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='68' height='68' rx='34' fill='%236F5643'/%3E%3Crect x='4.5' y='0.5' width='67' height='67' rx='33.5' fill='%23E1B971'/%3E%3Cpath d='M33.9113 51.8511L50.2177 35.45C50.4113 35.2548 50.5487 35.0432 50.63 34.8154C50.7113 34.5876 50.7513 34.3436 50.75 34.0833C50.75 33.8229 50.71 33.5789 50.63 33.3511C50.55 33.1233 50.4126 32.9117 50.2177 32.7165L33.9113 16.2666C33.4597 15.811 32.8952 15.5833 32.2177 15.5833C31.5403 15.5833 30.9597 15.8273 30.4758 16.3154C29.9919 16.8036 29.75 17.373 29.75 18.0239C29.75 18.6747 29.9919 19.2442 30.4758 19.7323L44.7016 34.0833L30.4758 48.4342C30.0242 48.8898 29.7984 49.4514 29.7984 50.1192C29.7984 50.7869 30.0403 51.3642 30.5242 51.8511C31.0081 52.3392 31.5726 52.5833 32.2177 52.5833C32.8629 52.5833 33.4274 52.3392 33.9113 51.8511Z' fill='%236F5643'/%3E%3Crect x='4.5' y='0.5' width='67' height='67' rx='33.5' stroke='%236F5643'/%3E%3C/svg%3E%0A");
   width: 72px;
-  transition: 0.2s ease;
 }
 .slider .slick-arrow.slick-prev {
   background-image: url("data:image/svg+xml,%3Csvg width='72' height='68' viewBox='0 0 72 68' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='68' height='68' rx='34' transform='matrix(-1 0 0 1 72 0)' fill='%236F5643'/%3E%3Crect x='-0.5' y='0.5' width='67' height='67' rx='33.5' transform='matrix(-1 0 0 1 71 0)' fill='%23E1B971'/%3E%3Cpath d='M42.0887 51.8511L25.7823 35.45C25.5887 35.2548 25.4513 35.0432 25.37 34.8154C25.2887 34.5877 25.2487 34.3436 25.25 34.0833C25.25 33.8229 25.29 33.5789 25.37 33.3511C25.45 33.1233 25.5874 32.9117 25.7823 32.7165L42.0887 16.2666C42.5403 15.811 43.1048 15.5833 43.7823 15.5833C44.4597 15.5833 45.0403 15.8273 45.5242 16.3154C46.0081 16.8036 46.25 17.373 46.25 18.0239C46.25 18.6747 46.0081 19.2442 45.5242 19.7323L31.2984 34.0833L45.5242 48.4342C45.9758 48.8898 46.2016 49.4514 46.2016 50.1192C46.2016 50.7869 45.9597 51.3642 45.4758 51.8511C44.9919 52.3392 44.4274 52.5833 43.7823 52.5833C43.1371 52.5833 42.5726 52.3392 42.0887 51.8511Z' fill='%236F5643'/%3E%3Crect x='-0.5' y='0.5' width='67' height='67' rx='33.5' transform='matrix(-1 0 0 1 71 0)' stroke='%236F5643'/%3E%3C/svg%3E%0A");
@@ -354,7 +353,6 @@ header .navbar-toggler[aria-expanded=true] span:after {
   background-image: url("data:image/svg+xml,%3Csvg width='72' height='68' viewBox='0 0 72 68' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='68' height='68' rx='34' transform='matrix(-1 0 0 1 72 0)' fill='%236F5643'/%3E%3Crect x='-0.5' y='0.5' width='67' height='67' rx='33.5' transform='matrix(-1 0 0 1 67 0)' fill='%23E1B971'/%3E%3Cpath d='M38.0887 51.8511L21.7823 35.45C21.5887 35.2548 21.4513 35.0432 21.37 34.8154C21.2887 34.5877 21.2487 34.3436 21.25 34.0833C21.25 33.8229 21.29 33.5789 21.37 33.3511C21.45 33.1233 21.5874 32.9117 21.7823 32.7165L38.0887 16.2666C38.5403 15.811 39.1048 15.5833 39.7823 15.5833C40.4597 15.5833 41.0403 15.8273 41.5242 16.3154C42.0081 16.8036 42.25 17.373 42.25 18.0239C42.25 18.6747 42.0081 19.2442 41.5242 19.7323L27.2984 34.0833L41.5242 48.4342C41.9758 48.8898 42.2016 49.4514 42.2016 50.1192C42.2016 50.7869 41.9597 51.3642 41.4758 51.8511C40.9919 52.3392 40.4274 52.5833 39.7823 52.5833C39.1371 52.5833 38.5726 52.3392 38.0887 51.8511Z' fill='%236F5643'/%3E%3Crect x='-0.5' y='0.5' width='67' height='67' rx='33.5' transform='matrix(-1 0 0 1 67 0)' stroke='%236F5643'/%3E%3C/svg%3E");
   background-position: center;
   background-repeat: no-repeat;
-  transition: 0.2s ease;
 }
 
 .history .template-history {
@@ -818,11 +816,11 @@ body.lock {
 }
 .popup__close:hover {
   background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.985 15.018L22.245 13.758M13.755 22.242L17.88 18.117M22.245 22.248L13.755 13.758M6 9C4.125 11.505 3 14.625 3 18C3 26.28 9.72 33 18 33C26.28 33 33 26.28 33 18C33 9.72 26.28 3 18 3C15.855 3 13.8 3.45 11.955 4.275' stroke='%23D2A24C' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-  transition: 0.3s;
+  background-position: center;
 }
 .popup__close:active {
   background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.985 13.018L20.245 11.758M11.755 20.242L15.88 16.117M20.245 20.248L11.755 11.758M4 7C2.125 9.505 1 12.625 1 16C1 24.28 7.72 31 16 31C24.28 31 31 24.28 31 16C31 7.72 24.28 1 16 1C13.855 1 11.8 1.45 9.955 2.275' stroke='%236F5643' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  transition: 0.3s;
+  background-position: center;
 }
 .popup__title {
   margin: 30px 0;
@@ -1077,6 +1075,12 @@ body.lock {
   background-image: url("data:image/svg+xml,%3Csvg width='240' height='52' viewBox='0 0 240 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M41 20V27.5' stroke='%238A7768' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M36.5 11H45.5' stroke='%238A7768' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M30.5 20C28.7908 22.2691 27.8691 25.0342 27.875 27.875C27.875 35.12 33.755 41 41 41C48.245 41 54.125 35.12 54.125 27.875C54.125 20.63 48.245 14.75 41 14.75C39.11 14.75 37.325 15.14 35.705 15.86' stroke='%238A7768' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M211.48 22L203.873 29.6067C202.975 30.505 201.505 30.505 200.607 29.6067L193 22' stroke='%238A7768' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='1' y='1' width='238' height='50' rx='11' stroke='%238A7768' stroke-width='2'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
   background-position: center;
+  color: #6f5643;
+  font-family: "Proza Libre";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
 }
 .contacts form .col-md-6 .timepicker::placeholder {
   font-family: "Proza Libre";

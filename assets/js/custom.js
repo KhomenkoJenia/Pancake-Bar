@@ -96,12 +96,27 @@ form.action = "javascript:void(0)";
 
 $(".timepicker").timepicker({
 	timeFormat: "h:mm",
-	interval: 30,
+	interval: 60,
 	minTime: "10",
 	maxTime: "6:00pm",
-	defaultTime: "11",
+
 	startTime: "10:00",
 	dynamic: false,
 	dropdown: true,
 	scrollbar: true,
 });
+
+const input1 = document.getElementById("phone-imput");
+const input2 = document.getElementById("name-imput");
+const mySelect = document.getElementById("openPopup");
+
+input1.addEventListener("input", validateInputs);
+input2.addEventListener("input", validateInputs);
+
+function validateInputs() {
+	if (input1.value && input2.value) {
+		mySelect.disabled = false;
+	} else {
+		mySelect.disabled = true;
+	}
+}

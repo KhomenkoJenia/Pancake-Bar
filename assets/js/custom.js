@@ -42,7 +42,7 @@ new AirDatepicker("#airdatepicker", {
 		],
 		today: "Today",
 		clear: "Clear",
-		dateFormat: "dd/MM/yyyy",
+		dateFormat: "dd.MM.yyyy",
 		timeFormat: "hh:mm aa",
 		firstDay: 0,
 	},

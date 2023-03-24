@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
 Theme Name: CustomTheme
 Theme URI: https://wordpress.org/themes/CustomTheme/
@@ -61,6 +60,8 @@ header .container {
 header .logo {
   padding: 20px 0;
   border-bottom: 3px solid #6f5643;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
   max-width: 1376px;
   width: 100%;
   text-align: center;
@@ -83,7 +84,7 @@ header .logo .navbar-brand:before {
   transform: translateY(-55%);
   width: 80px;
   height: 2px;
-  border-radius: 12px;
+  border-radius: 50px;
   background-color: #b19e90;
 }
 header .logo .navbar-brand:after {
@@ -139,6 +140,7 @@ header .navbar {
   border-left: none;
   border-right: none;
   margin-bottom: 24px;
+  border-radius: 2px;
 }
 header .header-logo {
   display: inline-block;
@@ -202,15 +204,7 @@ header .navbar-toggler[aria-expanded=true] span:after {
   align-items: center;
 }
 .first-screen .first-screen-img {
-  font-family: "Lobster";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 240px;
-  color: rgba(90, 71, 55, 0.835);
-  letter-spacing: 0.04em;
-  -webkit-text-stroke: 16px rgba(255, 255, 255, 0.672); /* для Safari и Chrome */
-  text-shadow: rgba(90, 71, 55, 0.1);
-  filter: blur(2px);
+  margin-bottom: 46px;
 }
 .first-screen .title-second {
   text-align: center;
@@ -287,6 +281,7 @@ header .navbar-toggler[aria-expanded=true] span:after {
 .slider .main-box-first .about-box__shadow {
   background-color: #6f5643;
   border-radius: 12px;
+  max-width: 648px;
 }
 .slider .main-box-first .about-box__item {
   margin-bottom: 86px;
@@ -316,9 +311,9 @@ header .navbar-toggler[aria-expanded=true] span:after {
   border: 4px solid #6f5643;
 }
 .slider .slider-template-second {
-  max-width: 655px;
+  max-width: 680px;
   position: relative;
-  margin: 0 -16px;
+  margin-left: -16px;
 }
 .slider .slider-template__item-wrapper-second {
   margin: 0 16px;
@@ -398,7 +393,7 @@ header .navbar-toggler[aria-expanded=true] span:after {
   background-image: url("data:image/svg+xml,%3Csvg width='203' height='2358' viewBox='0 0 203 2358' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 4.58253C0 1.02949 4.28674 -0.760044 6.81287 1.73852L98.201 92.1293C99.754 93.6654 102.252 93.6715 103.813 92.1431L196.201 1.6587C198.733 -0.820763 203 0.972852 203 4.51643V2353.39C203 2356.95 198.706 2358.74 196.182 2356.23L103.832 2264.56C102.267 2263.01 99.7395 2263.02 98.182 2264.58L6.83189 2356.15C4.31345 2358.68 0 2356.89 0 2353.33V4.58253Z' fill='%23E1B971'/%3E%3C/svg%3E");
   max-height: 100%;
   padding: 192px 24px 229px;
-  margin: 0 40px;
+  margin: 0 32px;
   height: 2358px;
   display: flex;
   flex-direction: column;
@@ -489,6 +484,7 @@ header .navbar-toggler[aria-expanded=true] span:after {
   padding: 50px;
   border: 12px solid #6f5643;
   border-radius: 16px;
+  background-image: url(assets/img/noise.svg);
 }
 .menu .menu-mainbox__template {
   border: 4px solid #6f5643;
@@ -555,7 +551,7 @@ header .navbar-toggler[aria-expanded=true] span:after {
   background-color: #e88360;
 }
 .menu .menu-mainbox .margen-menu {
-  margin-top: 50px;
+  margin-top: 27px;
 }
 
 footer {
@@ -704,6 +700,7 @@ body.lock {
   width: 100%;
   padding: 8px 0;
   border: 2px solid #b19e90;
+  border-radius: 2px;
   border-right: none;
   border-left: none;
   position: relative;
@@ -718,6 +715,7 @@ body.lock {
   width: 100%;
   height: 3px;
   background-color: #6f5643;
+  border-radius: 50px;
 }
 
 .template-discription {
@@ -786,7 +784,7 @@ body.lock {
   left: 0;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.3s ease-in 0s;
+  transition: all 0s ease-in 0s;
 }
 .popup__body {
   min-height: 100%;
@@ -818,6 +816,10 @@ body.lock {
 }
 .popup__close:hover {
   background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.985 15.018L22.245 13.758M13.755 22.242L17.88 18.117M22.245 22.248L13.755 13.758M6 9C4.125 11.505 3 14.625 3 18C3 26.28 9.72 33 18 33C26.28 33 33 26.28 33 18C33 9.72 26.28 3 18 3C15.855 3 13.8 3.45 11.955 4.275' stroke='%23D2A24C' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  background-position: center;
+}
+.popup__close:focus {
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.985 13.018L20.245 11.758M11.755 20.242L15.88 16.117M20.245 20.248L11.755 11.758M4 7C2.125 9.505 1 12.625 1 16C1 24.28 7.72 31 16 31C24.28 31 31 24.28 31 16C31 7.72 24.28 1 16 1C13.855 1 11.8 1.45 9.955 2.275' stroke='%236F5643' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-position: center;
 }
 .popup__close:active {
@@ -911,6 +913,7 @@ body.lock {
   color: #6f5643;
 }
 .air-datepicker .air-datepicker-nav {
+  overflow: hidden;
   justify-content: center;
   background-color: #faf4d7;
 }
@@ -1063,7 +1066,7 @@ body.lock {
 .contacts form .col-md-6 {
   display: flex;
   padding: 0;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .contacts form .col-md-6 label {
   margin-top: 7px;
@@ -1257,7 +1260,7 @@ body.lock {
 .contacts .img-contacts {
   position: absolute;
   top: 916px;
-  left: 1110px;
+  left: 1175px;
 }
 
 .ui-timepicker-standard {
@@ -1293,5 +1296,11 @@ body.lock {
   color: #d2a24c;
   border: none;
   border-bottom: 2px solid #d2a24c;
+}
+
+.air-datepicker-cell.-selected- {
+  color: #6f5643;
+  border: none;
+  background-color: #d2a24c;
 }
 /*# sourceMappingURL=style.css.map */

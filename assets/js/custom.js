@@ -120,3 +120,21 @@ function validateInputs() {
 		mySelect.disabled = true;
 	}
 }
+const textPerson = document.querySelector(".preson-text");
+var mediaQueryList = window.matchMedia("screen and (max-width: 991px)");
+
+// Добавляем обработчик события, который будет вызван, когда состояние MediaQueryList изменится
+mediaQueryList.addListener(function (mql) {
+	if (mql.matches) {
+		textPerson.innerHTML = "Person";
+	} else {
+		textPerson.innerHTML = "How much person";
+	}
+});
+
+// Вызываем обработчик события, чтобы проверить текущее состояние MediaQueryList
+if (mediaQueryList.matches) {
+	textPerson.innerHTML = "Person";
+} else {
+	textPerson.innerHTML = "How much person";
+}

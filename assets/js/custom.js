@@ -138,3 +138,35 @@ if (mediaQueryList.matches) {
 } else {
 	textPerson.innerHTML = "How much person";
 }
+
+const timeInput = document.getElementById("time-unput");
+const xtimeInput = document.querySelectorAll(".ui-corner-all");
+xtimeInput.forEach((items) => {
+	items.addEventListener("click", () => {
+		timeInput.classList.add("next-bg");
+	});
+});
+timeInput.addEventListener("input", () => {
+	if (timeInput.value.trim() == "") {
+		timeInput.classList.remove("next-bg");
+	}
+});
+
+const calendarInput = document.getElementById("airdatepicker");
+const mtimeInput = document.querySelector(".air-datepicker-global-container");
+mtimeInput.addEventListener("click", () => {
+	calendarInput.classList.add("next-bg-calendar");
+});
+calendarInput.addEventListener("input", () => {
+	if (calendarInput.value.trim() == "") {
+		calendarInput.classList.remove("next-bg-calendar");
+	}
+});
+
+const personButtonInput = document.getElementById("personalButton");
+const personInput = document.querySelectorAll(".dropdown-item");
+personInput.forEach((items) => {
+	items.addEventListener("click", () => {
+		personButtonInput.classList.add("next-bg-button");
+	});
+});

@@ -67,10 +67,12 @@ const popup = document.getElementById("popup");
 
 openPopupButton.addEventListener("click", () => {
 	popup.classList.add("show");
+	document.body.style.overflow = "hidden";
 });
 
 closePopupButton.addEventListener("click", () => {
 	popup.classList.remove("show");
+	document.body.style.overflow = "";
 });
 
 $(".slider-template").slick({
@@ -170,3 +172,11 @@ personInput.forEach((items) => {
 		personButtonInput.classList.add("next-bg-button");
 	});
 });
+
+const objc = {
+	num: 6,
+	sayNumber: (say = () => {
+		console.log(this);
+	}),
+};
+objc.sayNumber();

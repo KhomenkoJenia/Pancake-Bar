@@ -125,7 +125,7 @@ header .nav-link {
   padding: 20px 0;
   font-weight: 400;
   font-size: 16px;
-  font-family: "Playfair Display";
+  font-family: "PlayfairDisplay";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -255,7 +255,7 @@ header .header-logo {
   max-width: 648px;
 }
 .slider .main-box-first .about-box__item {
-  margin-bottom: 86px;
+  margin-bottom: 32px;
   max-width: 648px;
   padding: 40px;
   border-radius: 12px;
@@ -330,6 +330,7 @@ header .header-logo {
 }
 .history .template-history .img-display-box {
   display: flex;
+  margin-bottom: 237px;
 }
 .history .template-history .img-display-box .img-second-box {
   margin: 0;
@@ -350,6 +351,9 @@ header .header-logo {
 }
 .history .template-history__box img {
   margin: 0 19px 20px 0;
+}
+.history .template-history .template-history__box-img {
+  margin-bottom: 208px;
 }
 .history .template-history .template-history__box-img-second-down {
   max-width: 542px;
@@ -564,7 +568,7 @@ footer .container .navbar-nav-footer {
   margin: 28px 0 25px;
 }
 footer .container .navbar-nav-footer .nav-link {
-  font-family: "Playfair Display";
+  font-family: "PlayfairDisplay";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -698,7 +702,7 @@ body.lock {
 .template-title {
   margin-top: 68px;
   margin-bottom: 60px;
-  font-family: "Playfair Display";
+  font-family: "PlayfairDisplay";
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
@@ -727,7 +731,7 @@ body.lock {
 }
 
 .template-discription {
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -742,7 +746,7 @@ body.lock {
 }
 
 .btn.btn-primary {
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-weight: 600;
   font-size: 24px;
   line-height: 33px;
@@ -844,7 +848,7 @@ body.lock {
   color: #6f5643;
 }
 .popup__subtitle {
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -857,13 +861,18 @@ body.lock {
 .air-datepicker {
   border-radius: 12px;
   border: 2px solid #8a7768;
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   background-color: #faf4d7;
   color: #6f5643;
+}
+.air-datepicker .air-datepicker-cell.-selected- {
+  color: #fff;
+  border: none;
+  background: #e1b971;
 }
 .air-datepicker .air-datepicker--navigation {
   border-radius: 12px;
@@ -913,7 +922,7 @@ body.lock {
   color: #b19e90;
 }
 .air-datepicker .air-datepicker--content .air-datepicker-body--day-names .air-datepicker-body--day-name {
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -974,13 +983,13 @@ body.lock {
   margin-bottom: 20px;
 }
 .contacts .contacts-template-item__info {
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 33px;
   color: #8a7768;
-  text-align: center;
+  text-align: start;
 }
 .contacts form {
   max-width: 816px;
@@ -988,7 +997,7 @@ body.lock {
   border: 5px solid #6f5643;
   border-radius: 16px;
   padding: 40px;
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1034,7 +1043,7 @@ body.lock {
   line-height: 33px;
 }
 .contacts form .col-md-12 .btn {
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-weight: 600;
   font-size: 24px;
   line-height: 33px;
@@ -1046,7 +1055,7 @@ body.lock {
   background: transparent;
   border-radius: 10px;
   padding: 0px 50px;
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1055,7 +1064,7 @@ body.lock {
   border: none;
 }
 .contacts form input::placeholder {
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1084,14 +1093,14 @@ body.lock {
 }
 .contacts form .col-md-6 .timepicker {
   position: relative;
-  padding: 7px 90px;
+  padding: 7px 75px;
   caret-color: transparent;
   border-radius: 16px;
   background-image: url("data:image/svg+xml,%3Csvg width='240' height='52' viewBox='0 0 240 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M90 20V27.5' stroke='%238A7768' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M85.5 11H94.5' stroke='%238A7768' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M79.5 20C77.7908 22.2691 76.8691 25.0342 76.875 27.875C76.875 35.12 82.755 41 90 41C97.245 41 103.125 35.12 103.125 27.875C103.125 20.63 97.245 14.75 90 14.75C88.11 14.75 86.325 15.14 84.705 15.86' stroke='%238A7768' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M163.24 22.4417L155.633 30.0483C154.735 30.9467 153.265 30.9467 152.366 30.0483L144.76 22.4417' stroke='%238A7768' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='1' y='1' width='238' height='50' rx='11' stroke='%238A7768' stroke-width='2'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: center;
   color: #6f5643;
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1116,16 +1125,16 @@ body.lock {
   border: 2px solid #6f5643;
   width: 240px;
   border-radius: 16px;
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 33px;
   background-color: inherit;
   color: #6f5643;
 }
 .contacts form .col-md-6 input::placeholder {
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1144,7 +1153,7 @@ body.lock {
 }
 .contacts form .calendar-contact {
   caret-color: transparent;
-  padding: 7px 63px;
+  padding: 7px 56px;
   background-image: url("data:image/svg+xml,%3Csvg width='240' height='52' viewBox='0 0 240 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M84 11V15.5M96 11V15.5M77.25 21.635H102.75M76.5 27.515V20.75C76.5 16.25 78.75 13.25 84 13.25H96C101.25 13.25 103.5 16.25 103.5 20.75V33.5C103.5 38 101.25 41 96 41H84C78.75 41 76.5 38 76.5 33.5' stroke='%238A7768' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M95.5409 28.55H95.5544M95.5409 33.05H95.5544M89.9924 28.55H90.0059M89.9924 33.05H90.0059M84.4424 28.55H84.4574M84.4424 33.05H84.4574' stroke='%238A7768' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M163.24 22.4417L155.633 30.0483C154.735 30.9467 153.265 30.9467 152.366 30.0483L144.76 22.4417' stroke='%238A7768' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='1' y='1' width='238' height='50' rx='11' stroke='%238A7768' stroke-width='2'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
   background-position: center;
@@ -1164,6 +1173,9 @@ body.lock {
 .contacts form .calendar-contact.next-bg-calendar {
   background-image: url("data:image/svg+xml,%3Csvg width='240' height='52' viewBox='0 0 240 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 11V15.5M42 11V15.5M23.25 21.635H48.75M22.5 27.515V20.75C22.5 16.25 24.75 13.25 30 13.25H42C47.25 13.25 49.5 16.25 49.5 20.75V33.5C49.5 38 47.25 41 42 41H30C24.75 41 22.5 38 22.5 33.5' stroke='%238A7768' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M41.5409 28.55H41.5544M41.5409 33.05H41.5544M35.9924 28.55H36.0059M35.9924 33.05H36.0059M30.4424 28.55H30.4574M30.4424 33.05H30.4574' stroke='%238A7768' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M217.24 22.4417L209.633 30.0483C208.735 30.9467 207.265 30.9467 206.366 30.0483L198.76 22.4417' stroke='%238A7768' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='1' y='1' width='238' height='50' rx='11' stroke='%238A7768' stroke-width='2'/%3E%3C/svg%3E");
 }
+.contacts form .dropdown-menu::-webkit-scrollbar {
+  display: none;
+}
 .contacts form .col-md-9 {
   padding: 0;
   display: flex;
@@ -1181,7 +1193,7 @@ body.lock {
   height: 52px;
   text-align: center;
   position: relative;
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1262,7 +1274,7 @@ body.lock {
   border: none;
   border-bottom: 2px solid #8a7768;
   margin-top: 12px;
-  font-family: "Proza Libre";
+  font-family: "ProzaLibre";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1279,6 +1291,10 @@ body.lock {
   color: #d2a24c;
   border: none;
   border-bottom: 2px solid #d2a24c;
+}
+
+.ui-timepicker-viewport::-webkit-scrollbar {
+  display: none;
 }
 
 .air-datepicker-cell.-selected- {
@@ -1307,7 +1323,7 @@ body.lock {
     overflow-x: hidden;
   }
   .btn.btn-primary {
-    font-family: "Proza Libre";
+    font-family: "ProzaLibre";
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
@@ -1319,6 +1335,9 @@ body.lock {
   }
   .btn.btn-primary:hover {
     transform: translate(0, 0);
+  }
+  .btn.btn-primary:active {
+    background-color: #d14614;
   }
   .title-second {
     margin-bottom: 16px;
@@ -1332,7 +1351,7 @@ body.lock {
   .template-title {
     margin-top: 60px;
     margin-bottom: 32px;
-    font-family: "Playfair Display";
+    font-family: "PlayfairDisplay";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -1358,7 +1377,7 @@ body.lock {
     border-radius: 50px;
   }
   .template-discription {
-    font-family: "Proza Libre";
+    font-family: "ProzaLibre";
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -1506,8 +1525,8 @@ body.lock {
   .about .about-template .about-img {
     position: absolute;
     max-width: 158px;
-    top: 60%;
-    left: 65%;
+    top: 63%;
+    left: 64%;
   }
   .about .about-template .about-box {
     margin: 0;
@@ -1522,7 +1541,7 @@ body.lock {
     max-width: 326px;
   }
   .about .about-template .btn.btn-primary {
-    font-family: "Proza Libre";
+    font-family: "ProzaLibre";
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
@@ -1575,7 +1594,7 @@ body.lock {
     order: 1;
   }
   .slider .slider-template__item-wrapper-second {
-    margin: 0 16px;
+    margin: 0 4px;
   }
   .slider .slick-arrow {
     width: 44px;
@@ -1763,7 +1782,7 @@ body.lock {
     color: #6f5643;
   }
   .popup__subtitle {
-    font-family: "Proza Libre";
+    font-family: "ProzaLibre";
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
@@ -1786,6 +1805,9 @@ body.lock {
   }
   .history .template-history .template-history__box-img {
     display: none;
+  }
+  .history .template-history .img-display-box {
+    margin-bottom: 0px;
   }
   .history .template-history .img-display-box .img-second-box {
     margin: 0;
